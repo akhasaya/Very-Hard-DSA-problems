@@ -15,5 +15,6 @@ def minimumAreaRectangle(points):
             vertical_lines[(y1,y2)] = x1
             index2 += 1
 
+
     return min(areas) if len(areas) > 0 else 0
         
